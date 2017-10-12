@@ -15,6 +15,7 @@ RUN \
 apk add --update \
     ca-certificates \
     git \
+    openssh \
     wget \
   && wget -O /tmp/glibc.apk "https://github.com/andyshinn/alpine-pkg-glibc/releases/download/${GLIBC_VERSION}/glibc-${GLIBC_VERSION}.apk" \
   && apk add --allow-untrusted /tmp/glibc.apk \
