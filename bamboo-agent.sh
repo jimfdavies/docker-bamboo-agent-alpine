@@ -14,3 +14,4 @@ wget -cv $AGENT_URL -O $AGENT_INSTALLER_FILENAME
 
 echo "-> Starting Bamboo Agent."
 java -jar $AGENT_INSTALLER_FILENAME $CONNECTION_STRING
+ 
