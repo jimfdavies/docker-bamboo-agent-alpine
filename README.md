@@ -7,7 +7,8 @@ Usage
 
 #### Usage
 IMPORTANT: The environment variable $AGENT_VERSION must match your server version.
-You can find this from http://my-bamboo-server:8085/admin/agent/addRemoteAgent.action.
+You can find this from http://<my-bamboo-server>:8085/admin/agent/addRemoteAgent.action.
+
 Agent assumes that correct [network connectivity](https://confluence.atlassian.com/bamkb/troubleshooting-remote-agents-216957427.html) to the Server is in place.
 
 #### Run
